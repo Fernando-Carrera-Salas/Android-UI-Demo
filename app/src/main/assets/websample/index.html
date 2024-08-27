@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head>
+		<title>Web Sample</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="js/bootstrap.bundle.min.js"></script>
+	</head>
+	<body bgcolor="white">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<br/>
+					<center><h3 id="web_title">Local webpage</h3></center>
+					<br/>
+					<center><input class="form-control" type="text" id="web_input" placeholder="Enter some text here..."/></center>
+					<br/>
+					<center><button id="web_button" class="btn btn-primary" onclick="sendToAndroid()">Send to the app!</button></center>
+					<br/>
+					<center><p id="web_text"></p></center>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	</body>
+	<script>
+		var web_language = "EN";
+		function sendToAndroid()
+		{
+			var message = document.getElementById('web_input').value;
+			app.receiveFromJavaScript(message);
+		}
+		function receiveFromAndroid(message)
+		{			
+			switch(web_language)
+			{
+				case "EN":
+					document.getElementById("web_text").innerHTML = "Received from app:<br/>"+message;
+				break;
+				case "ES":
+					document.getElementById("web_text").innerHTML = "Recibido de la app:<br/>"+message;
+				break;
+				case "FR":
+					document.getElementById("web_text").innerHTML = "Reçu de l'application:<br/>"+message;
+				break;
+				case "DE":
+					document.getElementById("web_text").innerHTML = "Empfangen von der App:<br/>"+message;
+				break;
+				case "IT":
+					document.getElementById("web_text").innerHTML = "Ricevuto dall'app:<br/>"+message;
+				break;
+				case "PT":
+					document.getElementById("web_text").innerHTML = "Recebido do aplicativo:<br/>"+message;
+				break;
+			}
+		}
+		function setLanguage(language)
+		{
+			web_language = language;
+			switch(web_language)
+			{
+				case "EN":
+					document.getElementById("web_title").innerHTML = "Local webpage";
+					document.getElementById('web_input').placeholder = "Enter some text here...";
+					document.getElementById("web_button").innerHTML = "Send to the app!";
+				break;
+				case "ES":
+					document.getElementById("web_title").innerHTML = "Página web local";
+					document.getElementById('web_input').placeholder = "Introduce un texto aquí...";
+					document.getElementById("web_button").innerHTML = "¡Enviar a la app!";
+				break;
+				case "FR":
+					document.getElementById("web_title").innerHTML = "Page web locale";
+					document.getElementById('web_input').placeholder = "Entrez du texte ici...";
+					document.getElementById("web_button").innerHTML = "Envoyer à l'application!";
+				break;
+				case "DE":
+					document.getElementById("web_title").innerHTML = "Lokale Webseite";
+					document.getElementById('web_input').placeholder = "Geben Sie hier einen Text ein...";
+					document.getElementById("web_button").innerHTML = "An die App senden!";
+				break;
+				case "IT":
+					document.getElementById("web_title").innerHTML = "Pagina web locale";
+					document.getElementById('web_input').placeholder = "Inserisci del testo qui...";
+					document.getElementById("web_button").innerHTML = "Invia all'app!";
+				break;
+				case "PT":
+					document.getElementById("web_title").innerHTML = "Página web local";
+					document.getElementById('web_input').placeholder = "Digite algum texto aqui...";
+					document.getElementById("web_button").innerHTML = "Enviar para o aplicativo!";
+				break;
+			}
+		}
+	</script>
+</html>

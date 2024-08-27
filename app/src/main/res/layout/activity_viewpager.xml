@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_root"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vp_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:alpha="0.5"
+            android:src="@drawable/profile_ornament_1"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <ImageView
+            android:src="@drawable/profile_ornament_1"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <RelativeLayout
+            android:id="@+id/rl_bt_home_viewpager"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_bt_home_viewpager"
+                android:src="@drawable/home"
+                android:padding="15dp"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:tint="@color/colorPrimaryDark" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_bt_news_viewpager"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_bt_news_viewpager"
+                android:src="@drawable/news"
+                android:padding="15dp"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:tint="@color/colorPrimaryDark" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_bt_notifications_viewpager"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_bt_notifications_viewpager"
+                android:src="@drawable/notification"
+                android:padding="15dp"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:tint="@color/colorPrimaryDark" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_bt_profile_viewpager"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_bt_profile_viewpager"
+                android:src="@drawable/profile"
+                android:padding="15dp"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:tint="@color/colorPrimaryDark" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

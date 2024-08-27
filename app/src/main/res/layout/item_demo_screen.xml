@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.java.uidemo.view.SquareRelativeLayout
+        android:layout_margin="10dp"
+        android:id="@+id/rl_bt_item_demo_screen"
+        android:background="@drawable/bg_rounded_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/mdroid"
+            android:padding="20dp"
+            android:id="@+id/iv_item_demo_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.java.uidemo.view.SquareRelativeLayout>
+</RelativeLayout>

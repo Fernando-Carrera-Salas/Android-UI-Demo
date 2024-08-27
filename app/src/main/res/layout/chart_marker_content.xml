@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rlMarkerContent"
+    android:padding="5dp"
+    android:background="@drawable/bg_field" >
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_date_chart_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:ellipsize="end"
+        android:singleLine="true"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_date_chart_marker"
+        android:id="@+id/tv_content_chart_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:ellipsize="end"
+        android:singleLine="true"/>
+</RelativeLayout>

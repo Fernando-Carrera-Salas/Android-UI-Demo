@@ -1,0 +1,535 @@
+<resources>
+    <string name="android">Android</string>
+
+    <string name="animations">Animations</string>
+
+    <string name="app_name">UI Demo</string>
+
+    <string name="augmented_reality">Augmented Reality</string>
+
+    <string name="barcodes">Barcodes</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="charts">Charts</string>
+
+    <string name="chat">Chat</string>
+    <string-array name="chat_messages">
+        <item>Hi! How\'s your day going?</item>
+        <item>What are you up to today?</item>
+        <item>Any fun plans for the weekend?</item>
+        <item>Have you watched any good movies lately?</item>
+        <item>What\'s your favorite hobby?</item>
+        <item>Do you have any pets?</item>
+        <item>What kind of music do you like?</item>
+        <item>Where\'s the best place you\'ve ever traveled to?</item>
+        <item>What\'s your favorite book?</item>
+        <item>Do you enjoy cooking? If so, what\'s your favorite dish to make?</item>
+    </string-array>
+    <string-array name="chat_responses">
+        <item>That sounds great!</item>
+        <item>How interesting!</item>
+        <item>I didn\'t know that.</item>
+        <item>That\'s nice!</item>
+        <item>I love it!</item>
+        <item>Lucky you!</item>
+        <item>Impressive!</item>
+        <item>I see.</item>
+        <item>How fun!</item>
+        <item>That\'s a good idea!</item>
+    </string-array>
+
+    <string name="click_me">Click me!</string>
+
+    <string name="confirm">Confirm</string>
+
+    <string-array name="countries">
+        <item>Afghanistan</item>
+        <item>Åland Islands</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Caribbean Netherlands</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Curaçao</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands</item>
+        <item>Faroe Islands</item>
+        <item>Federated States of Micronesia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestine</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>São Tomé and Príncipe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Sint Maarten</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Eswatini</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>United States Minor Outlying Islands</item>
+        <item>United States Virgin Islands</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <string name="country">Country:</string>
+
+    <string name="date_of_birth">Date of birth:</string>
+
+    <string name="default_language">EN</string>
+
+    <string name="demo">demo</string>
+
+    <string name="draw_a_signature">Draw a signature:</string>
+
+    <string name="embedded_browser">Embedded browser</string>
+
+    <string name="english">English</string>
+
+    <string name="enter_a_name_">Enter a name...</string>
+    <string name="enter_some_text_here_">Enter some text here...</string>
+    <string name="enter_the_password">Enter the password</string>
+    <string name="enter_the_recovery_code">Enter the recovery code.</string>
+    <string name="enter_the_username">Enter the username.</string>
+
+    <string-array name="f_names">
+        <item>Emily</item>
+        <item>Sophia</item>
+        <item>Isabella</item>
+        <item>Olivia</item>
+        <item>Mia</item>
+        <item>Grace</item>
+    </string-array>
+
+    <string name="female">Female</string>
+
+    <string name="forgot_your_password">Forgot your password?</string>
+
+    <string name="form">Form</string>
+
+    <string name="french">French</string>
+
+    <string name="friday">Friday</string>
+
+    <string name="gender">Gender:</string>
+
+    <string name="german">German</string>
+
+    <string name="google_maps">Google Maps</string>
+
+    <string name="help_animations"><![CDATA[
+            <p><strong>Animations</strong> are a fun way to make the UI more responsive and interesting.</p><p>&nbsp;</p><p>The default animations in Android modify the <strong>size, position, and visibility</strong> of elements on the screen. These animations can be combined as needed to achieve the desired effect.</p><p>&nbsp;</p><p>However, in excess, they can be visually overwhelming and taxing on less powerful devices, so it\'s important to choose the right places and moments to use them.</p>
+        ]]></string>
+    <string name="help_ar"><![CDATA[
+            <p><strong>Augmented Reality</strong> involves combining the real world, as seen through a camera, with virtual elements.</p><p>&nbsp;</p><p>These elements, typically in 3D, rely on sensor data and optical tracking to appear consistently on the screen, as if they were placed in the physical world.</p><p>&nbsp;</p><p>This example is simpler, as it only uses the device\'s gyroscope and GPS location to place a virtual marker at a nearby location randomly.</p><p>&nbsp;</p><p>If the camera is pointed away from the marker, an arrow will appear, indicating the direction of the marker.</p><p>&nbsp;</p><p>As a minigame, you can click on the marker to make it disappear. A new one will appear elsewhere, and a counter will track how many you\'ve clicked.</p>
+        ]]></string>
+    <string name="help_charts"><![CDATA[
+            <p><strong>Charts</strong> are a common feature in many apps and UIs in general.</p><p>&nbsp;</p><p>There are several libraries that one can use to draw charts in Android, as it is a hard component to design from scratch.</p><p>&nbsp;</p><p>The ones shown here are made with <strong>MPAndroidChart</strong, by PhilJay. This library provides many ways to customize its charts and how they react to interactions, and they can be further modified with relative ease by extending their core classes.</p>
+        ]]></string>
+    <string name="help_chat"><![CDATA[
+            <p><strong>Chats</strong> are common in social media and are also used in other apps as a means to provide feedback or contact support.</p><p>&nbsp;</p><p>While there are many libraries that offer fully functional chat systems, this implementation is built using core components, allowing for maximum customization.</p>
+        ]]></string>
+    <string name="help_form"><![CDATA[
+            <p><strong>Forms</strong> are essential in UI design, as most programs require users to enter some kind of information at some point.</p><p>&nbsp;</p><p>Many elements can appear in a form, and some projects will require more specific ways for users to interact with the app. For this demo, I\'ve chosen the following components:</p><p>&nbsp;</p><ul><li>An image selector.<br/><i>Based on the <strong>Image Picker</strong> library by Dhaval2404.</i></li><p>&nbsp;</p><li>A text field that reacts visually to user touch, also used in other screens.</li><p>&nbsp;</p><li>A wheel-based date selector.<br/><i>Based on the <strong>Number Picker</strong> library by ShawnLin013.</i></li><p>&nbsp;</p><li>A fully custom-made dropdown selector, built to address the many shortcomings of the default Android component.</li><p>&nbsp;</p><li>A set of custom radio buttons.</li><p>&nbsp;</p><li>A custom checkbox that includes dynamic links in its text.</li><p>&nbsp;</p><li>A press-and-hold button that displays a drawing canvas for a signature.</li><p>&nbsp;</p></ul>
+        ]]></string>
+    <string name="help_info"><![CDATA[
+            <p>This app is a comprehensive showcase of the techniques, practices, and skills I have honed throughout my decade-long journey as an Android developer.</p><p>&nbsp;</p><p>It serves as an interactive reflection of my experience in software development, offering a platform to demonstrate how I approach problem-solving, design, and implementation across various projects.</p><p>&nbsp;</p><p>Through this app, I aim to provide a deeper understanding of my development process and the value I bring to any project, beyond what a static resume or portfolio can convey.</p><p>&nbsp;</p>
+        ]]></string>
+    <string name="help_language"><![CDATA[
+            <p><strong>Localization</strong> is essential for most apps, ensuring that they can be used in multiple languages.</p><p>&nbsp;</p><p>On Android, this is done through <strong>XML</strong> files containing shared keywords. The system automatically retrieves the correct translation by matching these keywords with the language file that corresponds to the user\'s device language.</p><p>&nbsp;</p><p>To add a new translation, simply include a new <strong>XML</strong> file for the desired language and recompile the app.</p><p>&nbsp;</p><p>Additionally, we offer the option for users to change the app\'s language independently of their device settings, providing greater flexibility.</p>
+        ]]></string>
+    <string name="help_login"><![CDATA[
+            <p>Almost every app today includes a <strong>login screen</strong> that allows users to authenticate themselves.</p><p>&nbsp;</p><p>Although the concept is simple, it’s often the <strong>first screen</strong> users encounter, making it essential that it is both <strong>intuitive</strong> and <strong>visually appealing</strong>.</p><p>&nbsp;</p><p>Since the app is unlikely to be doing intensive work while the user is on this screen, you can afford to invest in enhancing the experience with animations and transitions.</p>
+        ]]></string>
+    <string name="help_map"><![CDATA[
+            <p><strong>Maps</strong> are used in many apps as a way to track the location of the user, display points of interest, or provide navigation.</p><p>&nbsp;</p><p><strong>Google Maps</strong> is without question the most documented library for Android and should be the go-to solution in most cases.</p><p>&nbsp;</p><p>In this example, the device location is marked with an icon, other markers will appear randomly around it, and clicking on them will display some information. Additionally, you can change the style of the map by pressing a button.</p>
+        ]]></string>
+    <string name="help_paging"><![CDATA[
+            <p>Sometimes, an app requires multiple screens that share certain UI elements, such as a header, menu, or background. In these cases, we use <strong>fragments</strong>, which are smaller interfaces embedded within the same container.</p><p>&nbsp;</p><p>Additionally, we can utilize an element called a <strong>ViewPager</strong> to display these fragments side by side, allowing users to navigate between them by swiping the screen or clicking on tabs.</p><p>&nbsp;</p><p>In this example, you will also find:</p><p>&nbsp;</p><ul><li>&nbsp;A list of articles that can be refreshed and will load more content as you reach the end. You can also click on an article to view the entire text.<br/><i>When viewing a full article, you can press the Bionic Reading button to make the text easier to read, with three levels of intensity.</i></li><p>&nbsp;</p><li>&nbsp;A list of notifications that can be refreshed. You can also press and hold a button to create a new notification that will appear in your notification tray.</li><p>&nbsp;</p><li>&nbsp;A sample profile page featuring a dynamic header, a bio, and several buttons.</li></ul>
+        ]]></string>
+    <string name="help_qr"><![CDATA[
+            <p>A <strong>barcode</strong> is a method of representing data visually in a way that a machine can read it.</p><p>&nbsp;</p><p>There are two main types of barcodes: one-dimensional (linear) and two-dimensional, with many different standards for each.</p><p>&nbsp;</p><p>In this example, you will find:</p><p>&nbsp;</p><ul><li>A dropdown menu that allows you to select the type of barcode you want to work with.</li><p>&nbsp;</p><li>A button that will open the camera and scan for that type of barcode.</li><p>&nbsp;</p><li>A text field that will display the result of a successful scan, with buttons to copy the result to your clipboard or load it into your browser.</li><p>&nbsp;</p><li>Another text field where you can write. A button will generate a barcode of the selected type that matches the contents of this field. Characters not allowed for the selected type will be skipped.</li></ul>
+        ]]></string>
+    <string name="help_webview"><![CDATA[
+            <p>Though this may seem like the least exciting screen in the app, it is likely the one with the most potential.</p><p>&nbsp;</p><p>This component is called a <strong>WebView</strong>, and it allows the app to load a webpage within itself.</p><p>&nbsp;</p><p>It is often used to include content from an existing online webpage. However, it should be noted that both Google and Apple have very strict rules about remote content, and may remove an app from their stores because of this.</p><p>&nbsp;</p><p>The true strength of this component lies in loading <strong>local web content</strong>, included within the source code of the app.</p><p>&nbsp;</p><p>This approach adds a lot of freedom and flexibility to UI design by allowing developers to use any library, framework, or template and <strong>seamlessly integrate it within their app</strong>.</p><p>&nbsp;</p><p>The example displays two fields, one inside the webpage and one in the native UI. By pressing the buttons, you can send the text from one side to the other, showcasing how information can flow between the two environments.</p>
+        ]]></string>
+
+    <string name="i_already_have_a_code">I already have a code</string>
+
+    <string name="image_saved_to_gallery">Image saved to gallery</string>
+
+    <string name="info">Info</string>
+
+    <string name="italian">Italian</string>
+
+    <string name="language_selection">Language selection</string>
+
+    <string name="log_in">Log in</string>
+
+    <string name="login_screen">Login screen</string>
+
+    <string-array name="m_names">
+        <item>Alex</item>
+        <item>Robert</item>
+        <item>James</item>
+        <item>William</item>
+        <item>Noah</item>
+        <item>Lucas</item>
+    </string-array>
+
+    <string name="male">Male</string>
+
+    <string name="marker">Marker</string>
+
+    <string name="monday">Monday</string>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="name">Name:</string>
+
+    <string name="notification_title">Notification</string>
+
+    <string name="other">Other</string>
+
+    <string name="paging">Paging</string>
+
+    <string name="password_">Password...</string>
+
+    <string name="passwords_do_not_match">Passwords do not match</string>
+
+    <string name="placeholder_news_1">
+        The concept of placeholder text often brings to mind the broader implications of content creation.\n\n
+
+        While it is clear that various elements contribute to the overall structure, the importance of a balanced approach cannot be overstated. There is something to be said for the way in which content aligns with the intended purpose, even when that purpose is not explicitly defined.\n\n
+
+        The intersection of relevance and context plays a critical role in shaping the perception of information, though the specifics might remain elusive.\n\n
+
+        In many cases, the decision to employ certain textual patterns reflects a deeper understanding of underlying principles. It is essential to recognize the value of this practice, as it can lead to meaningful outcomes. Furthermore, the relationship between form and function continues to evolve, prompting ongoing discussions about the best methods for achieving clarity.\n\n
+
+        As we consider these factors, the role of flexibility in content strategy becomes increasingly evident, demonstrating the need for adaptability in various scenarios.
+    </string>
+    <string name="placeholder_news_2">
+        The notion of structured communication often intersects with the broader goals of strategic planning. When we examine the intricacies of language use, it becomes clear that there is a delicate balance to be maintained between substance and presentation.\n\n
+
+        Whether discussing abstract concepts or tangible ideas, the manner in which information is conveyed can significantly impact its reception.\n\n
+
+        This brings to light the importance of considering both the content and the context in which it is delivered, though the exact parameters may vary.\n\n
+
+        Another aspect worth considering is the dynamic nature of content evolution. As new trends emerge, there is a continuous need to reassess existing frameworks to ensure they remain relevant. The adaptability of content to fit within diverse environments highlights the importance of foresight in planning.\n\n
+
+        By anticipating changes and adjusting accordingly, it is possible to maintain coherence and consistency. This ongoing process underscores the value of a holistic approach, one that takes into account the fluidity of modern communication.
+    </string>
+    <string name="placeholder_news_3">
+        The relationship between audience engagement and content delivery is often nuanced and complex. As creators, the challenge lies in navigating these complexities with a thoughtful approach. The influence of delivery methods on audience perception is undeniable, and it underscores the importance of versatility in communication strategies.\n\n
+
+        By leveraging different techniques, it becomes possible to reach a broader audience while still maintaining the integrity of the message. However, the balance between innovation and tradition remains a key consideration in this process.\n\n
+
+        Moreover, the significance of timing in content dissemination cannot be ignored. Whether through digital platforms or traditional media, the timing of a message often determines its impact. This consideration leads to a deeper exploration of the ways in which timing interacts with content relevance.\n\n
+
+        As the landscape of communication continues to shift, staying attuned to these temporal factors is crucial. Ultimately, it is the alignment of timing with audience expectations that can elevate a message from ordinary to extraordinary.
+    </string>
+    <string name="placeholder_news_4">
+        Content strategy often intersects with the broader themes of audience perception and brand identity. A well-crafted narrative has the potential to resonate deeply with its audience, creating a lasting impression. In this context, the choice of language and tone plays a pivotal role in shaping that narrative.\n\n
+
+        It is essential to strike a balance between consistency and adaptability, ensuring that the message remains relevant without losing its core identity. The subtle art of communication lies in understanding these nuances and applying them effectively.\n\n
+
+        In the ever-evolving landscape of media, the role of innovation cannot be overstated. As trends shift and new platforms emerge, there is a continual need to reassess and refine content strategies. This ongoing process of adaptation not only keeps the content fresh but also ensures it remains aligned with audience expectations.\n\n
+
+        The challenge, however, is in maintaining a cohesive message across diverse channels. By fostering a spirit of innovation while staying true to foundational principles, content creators can navigate these challenges successfully.
+    </string>
+    <string name="placeholder_profile">
+        Passionate about exploring the intersections of dynamic workflows and innovative processes, the journey toward optimizing strategic outcomes has always been a cornerstone of professional development. With a focus on enhancing collaborative environments, the ability to leverage key insights plays a pivotal role in driving successful initiatives. Embracing a proactive approach to problem-solving, the continuous pursuit of excellence remains a guiding principle.\n\n
+
+        Throughout various endeavors, the commitment to fostering growth and encouraging creativity has led to the cultivation of strong, adaptable methodologies. By integrating diverse perspectives, the emphasis on inclusivity and forward-thinking solutions becomes paramount. Understanding the importance of maintaining a balanced perspective, the alignment of core values with evolving trends is essential in navigating the complexities of today\'s fast-paced landscape.\n\n
+
+        In the ever-changing world of industry standards, the ability to stay ahead of the curve is indispensable. By combining a deep appreciation for tradition with a readiness to embrace new challenges, the journey toward sustainable success is both fulfilling and rewarding. This approach underscores the value of continuous learning and adaptability, ensuring that the path forward is always informed by a comprehensive understanding of the past and present.\n\n
+
+        The pursuit of impactful results is rooted in a dedication to excellence, which is reflected in a meticulous attention to detail. Whether working on large-scale projects or refining the nuances of specific tasks, the commitment to delivering high-quality outcomes is unwavering. By fostering a culture of innovation and collaboration, the possibilities for growth and achievement are boundless.\n\n
+    </string>
+
+    <string name="portuguese">Portuguese</string>
+
+    <string name="press_a_tab_to_switch_to_that_screen">Press a tab to switch to that screen</string>
+
+    <string name="proceed_to_signature">Proceed to signature</string>
+
+    <string name="received_from_webpage">Received from webpage:\n</string>
+
+    <string name="recovery_code_">Recovery code...</string>
+
+    <string name="register_new_account">Register new account</string>
+
+    <string name="repeat_password_">Repeat password...</string>
+
+    <string name="saturday">Saturday</string>
+
+    <string name="scan_result">Scan result</string>
+
+    <string name="scar_the_barcode">Scan the barcode</string>
+
+    <string name="select_a_barcode_type">-- Barcode type ---</string>
+    <string name="select_a_country">-- Select a country --</string>
+
+    <string name="send_to_webpage">Send to webpage!</string>
+
+    <string name="spanish">Spanish</string>
+
+    <string name="sunday">Sunday</string>
+
+    <string name="swipe_to_navigate_between_screens">Swipe to navigate between screens</string>
+
+    <string name="terms_1">I have read and accept the</string>
+    <string name="terms_2">TERMS AND CONDITIONS</string>
+    <string name="terms_3">and I have read and accept the</string>
+    <string name="terms_4">PRIVACY POLICY</string>
+
+    <string name="thursday">Thursday</string>
+
+    <string name="tuesday">Tuesday</string>
+
+    <string name="ui">UI</string>
+
+    <string name="username_">Username...</string>
+
+    <string name="wednesday">Wednesday</string>
+
+    <string name="write_a_message_">Write a message...</string>
+
+    <string name="contact_email" translatable="false">fernando.carrera.dev@gmail.com</string>
+    <string name="contact_github" translatable="false">https://www.github.com/Fernando-Carrera-Salas</string>
+    <string name="contact_linkedin" translatable="false">https://www.linkedin.com/in/fernandocarrerasalas</string>
+
+    <string name="lorem" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies dictum urna, a consectetur lorem varius eget. Aenean vel arcu ultricies, fermentum risus a, sollicitudin quam. Proin mollis pharetra erat. Praesent et turpis porta, bibendum massa at, venenatis tortor. Donec at dui risus. Morbi suscipit urna in ipsum porta, et faucibus ligula rhoncus. Integer fringilla a mi at tincidunt. Donec eleifend vitae elit ut elementum.\n\nAenean convallis neque sapien, nec bibendum enim mollis ac. Fusce venenatis, turpis vitae consectetur ultricies, nisl mi faucibus nulla, a tempus mi dolor eget nisi. Aenean nec nibh eu magna auctor auctor. Cras non condimentum ipsum, a lobortis massa. Nulla a lorem tortor. Praesent lectus augue, eleifend vel neque in, ornare faucibus risus. Praesent vitae consequat tellus. In eu blandit dolor. Aliquam luctus pulvinar ornare. Donec sit amet elit commodo magna molestie mollis in vitae purus. Mauris tempor est sed rhoncus mattis. Aenean iaculis enim ac velit imperdiet, quis blandit ante efficitur. Phasellus aliquet augue massa, at porttitor dolor sollicitudin non. Vivamus nec ante id dui egestas gravida nec sit amet tortor.\n\nMauris massa mauris, fermentum id ex sed, molestie malesuada lectus. Aenean lobortis libero ac ultrices pharetra. Morbi faucibus, orci nec sodales tincidunt, felis metus varius urna, in convallis nisl mauris sit amet massa. Cras vel purus sed tortor luctus maximus sed sit amet lacus. Mauris a lorem libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam luctus, sem at convallis euismod, neque nisi volutpat quam, feugiat ullamcorper turpis dolor sed odio. Morbi congue facilisis ultrices. Pellentesque finibus eros in diam tincidunt volutpat quis vel nunc. Praesent feugiat odio eget scelerisque bibendum. Suspendisse venenatis et tellus sed consequat. Pellentesque tincidunt sem metus, vitae placerat nulla rhoncus et. Maecenas et hendrerit augue, vel rhoncus turpis.\n\nQuisque id lacus a magna scelerisque porttitor sollicitudin quis sapien. In lobortis nisl sed maximus lacinia. Aliquam vel mollis tortor. Duis efficitur diam nibh, vel dapibus turpis pharetra non. Vestibulum pharetra porttitor quam sit amet rhoncus. Quisque semper gravida rutrum. Proin vitae luctus leo. Sed dapibus vitae ligula eu fermentum. Vestibulum sit amet ultricies nisl. Duis et ligula ut ex cursus sodales id nec justo. Nunc diam erat, cursus ut tortor non, suscipit scelerisque orci. Curabitur sed est cursus, fermentum est id, consectetur orci.\n\nSuspendisse a erat urna. Aenean quis bibendum turpis. Duis orci dolor, fermentum quis sodales vitae, rutrum at nisi. Nulla id rhoncus mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ex eros, condimentum vel lacinia consectetur, efficitur quis quam. Praesent fermentum, metus id aliquam congue, turpis odio lacinia velit, auctor scelerisque turpis neque vitae dui. Nullam consectetur fringilla enim, in viverra felis tincidunt eget. Integer efficitur id augue vel venenatis.</string>
+</resources>

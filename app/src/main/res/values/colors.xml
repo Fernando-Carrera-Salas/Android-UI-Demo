@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f0f0f0</color>
+    <color name="colorPrimaryDark">#0f0f0f</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="ui_demo_red">#FF9069</color>
+    <color name="ui_demo_blue">#71e9ff</color>
+    <!--<color name="ui_demo_blue">#91e9ff</color>-->
+    <color name="ui_demo_yellow">#FFDB69</color>
+    <color name="ui_demo_green">#69ff90</color>
+    <color name="ui_demo_purple">#9069FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="dark_gray">#444444</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

@@ -1,0 +1,511 @@
+<resources>
+    <string name="android">Android</string>
+
+    <string name="animations">Animationen</string>
+
+    <string name="app_name">UI Demo</string>
+
+    <string name="augmented_reality">Erweiterte Realität</string>
+
+    <string name="barcodes">Barcodes</string>
+
+    <string name="cancel">Abbrechen</string>
+
+    <string name="charts">Diagramme</string>
+
+    <string name="chat">Chat</string>
+    <string-array name="chat_messages">
+        <item>Hi! Wie läuft dein Tag?</item>
+        <item>Was machst du heute?</item>
+        <item>Hast du irgendwelche Pläne für das Wochenende?</item>
+        <item>Hast du in letzter Zeit gute Filme gesehen?</item>
+        <item>Was ist dein Lieblingshobby?</item>
+        <item>Hast du Haustiere?</item>
+        <item>Welche Art von Musik magst du?</item>
+        <item>Wo ist der beste Ort, an den du gereist bist?</item>
+        <item>Was ist dein Lieblingsbuch?</item>
+        <item>Kochen Sie gerne? Wenn ja, was ist Ihr Lieblingsgericht?</item>
+    </string-array>
+    <string-array name="chat_responses">
+        <item>Das klingt großartig!</item>
+        <item>Wie interessant!</item>
+        <item>Das wusste ich nicht.</item>
+        <item>Das ist schön!</item>
+        <item>Ich liebe es!</item>
+        <item>Glückspilz!</item>
+        <item>Beeindruckend!</item>
+        <item>Ich verstehe.</item>
+        <item>Wie lustig!</item>
+        <item>Das ist eine gute Idee!</item>
+    </string-array>
+
+    <string name="click_me">Klick mich!</string>
+
+    <string name="confirm">Bestätigen</string>
+
+    <string-array name="countries">
+        <item>Afghanistan</item>
+        <item>Åland</item>
+        <item>Albanien</item>
+        <item>Algerien</item>
+        <item>Amerikanisch-Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarktis</item>
+        <item>Antigua und Barbuda</item>
+        <item>Argentinien</item>
+        <item>Armenien</item>
+        <item>Aruba</item>
+        <item>Australien</item>
+        <item>Österreich</item>
+        <item>Aserbaidschan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesch</item>
+        <item>Barbados</item>
+        <item>Weißrussland</item>
+        <item>Belgien</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivien</item>
+        <item>Bosnien und Herzegowina</item>
+        <item>Botswana</item>
+        <item>Brasilien</item>
+        <item>Britisches Territorium im Indischen Ozean</item>
+        <item>Britische Jungferninseln</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgarien</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Kambodscha</item>
+        <item>Kamerun</item>
+        <item>Kanada</item>
+        <item>Cabo Verde</item>
+        <item>Karibische Niederlande</item>
+        <item>Kaimaninseln</item>
+        <item>Zentralafrikanische Republik</item>
+        <item>Tschad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Weihnachtsinsel</item>
+        <item>Kokosinseln</item>
+        <item>Kolumbien</item>
+        <item>Komoren</item>
+        <item>Kongo</item>
+        <item>Cookinseln</item>
+        <item>Costa Rica</item>
+        <item>Kroatien</item>
+        <item>Kuba</item>
+        <item>Curaçao</item>
+        <item>Zypern</item>
+        <item>Tschechien</item>
+        <item>Demokratische Republik Kongo</item>
+        <item>Dänemark</item>
+        <item>Dschibuti</item>
+        <item>Dominica</item>
+        <item>Dominikanische Republik</item>
+        <item>Ecuador</item>
+        <item>Ägypten</item>
+        <item>El Salvador</item>
+        <item>Äquatorialguinea</item>
+        <item>Eritrea</item>
+        <item>Estland</item>
+        <item>Äthiopien</item>
+        <item>Falklandinseln</item>
+        <item>Färöer-Inseln</item>
+        <item>Föderierte Staaten von Mikronesien</item>
+        <item>Fidschi</item>
+        <item>Finnland</item>
+        <item>Frankreich</item>
+        <item>Französisch-Guayana</item>
+        <item>Französisch-Polynesien</item>
+        <item>Französische Süd- und Antarktisgebiete</item>
+        <item>Gabun</item>
+        <item>Gambia</item>
+        <item>Georgien</item>
+        <item>Deutschland</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Griechenland</item>
+        <item>Grönland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hongkong</item>
+        <item>Ungarn</item>
+        <item>Island</item>
+        <item>Indien</item>
+        <item>Indonesien</item>
+        <item>Iran</item>
+        <item>Irak</item>
+        <item>Irland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italien</item>
+        <item>Elfenbeinküste</item>
+        <item>Jamaika</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordanien</item>
+        <item>Kasachstan</item>
+        <item>Kenia</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kirgistan</item>
+        <item>Laos</item>
+        <item>Lettland</item>
+        <item>Libanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libyen</item>
+        <item>Liechtenstein</item>
+        <item>Litauen</item>
+        <item>Luxemburg</item>
+        <item>Macau</item>
+        <item>Nordmazedonien</item>
+        <item>Madagaskar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Malediven</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshallinseln</item>
+        <item>Martinique</item>
+        <item>Mauritanien</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexiko</item>
+        <item>Moldawien</item>
+        <item>Monaco</item>
+        <item>Mongolei</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Marokko</item>
+        <item>Mosambik</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Niederlande</item>
+        <item>Neukaledonien</item>
+        <item>Neuseeland</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolkinsel</item>
+        <item>Nordkorea</item>
+        <item>Nördliche Marianen</item>
+        <item>Norwegen</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palästina</item>
+        <item>Panama</item>
+        <item>Papua-Neuguinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippinen</item>
+        <item>Pitcairninseln</item>
+        <item>Polen</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Katar</item>
+        <item>Réunion</item>
+        <item>Rumänien</item>
+        <item>Russland</item>
+        <item>Ruanda</item>
+        <item>St. Helena</item>
+        <item>St. Kitts und Nevis</item>
+        <item>St. Lucia</item>
+        <item>St. Pierre und Miquelon</item>
+        <item>St. Vincent und die Grenadinen</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>São Tomé und Príncipe</item>
+        <item>Saudi-Arabien</item>
+        <item>Senegal</item>
+        <item>Serbien</item>
+        <item>Seychellen</item>
+        <item>Sierra Leone</item>
+        <item>Singapur</item>
+        <item>Sint Maarten</item>
+        <item>Slowakei</item>
+        <item>Slowenien</item>
+        <item>Salomonen</item>
+        <item>Somalia</item>
+        <item>Südafrika</item>
+        <item>Südgeorgien und die Südlichen Sandwichinseln</item>
+        <item>Südkorea</item>
+        <item>Südsudan</item>
+        <item>Spanien</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard und Jan Mayen</item>
+        <item>Swasiland</item>
+        <item>Schweden</item>
+        <item>Schweiz</item>
+        <item>Syrien</item>
+        <item>Taiwan</item>
+        <item>Tadschikistan</item>
+        <item>Tansania</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad und Tobago</item>
+        <item>Tunesien</item>
+        <item>Türkei</item>
+        <item>Turkmenistan</item>
+        <item>Turks- und Caicosinseln</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>Vereinigte Arabische Emirate</item>
+        <item>Vereinigtes Königreich</item>
+        <item>Vereinigte Staaten von Amerika</item>
+        <item>Kleinere Amerikanische Überseeinseln</item>
+        <item>Amerikanische Jungferninseln</item>
+        <item>Uruguay</item>
+        <item>Usbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatikanstadt</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis und Futuna</item>
+        <item>Westsahara</item>
+        <item>Jemen</item>
+        <item>Sambia</item>
+        <item>Simbabwe</item>
+    </string-array>
+
+    <string name="country">Land:</string>
+
+    <string name="date_of_birth">Geburtsdatum:</string>
+
+    <string name="default_language">DE</string>
+
+    <string name="demo">demo</string>
+
+    <string name="draw_a_signature">Unterschrift zeichnen:</string>
+
+    <string name="embedded_browser">Eingebetteter Browser</string>
+
+    <string name="english">Englisch</string>
+
+    <string name="enter_a_name_">Geben Sie einen Namen ein...</string>
+    <string name="enter_some_text_here_">Geben Sie hier einen Text ein...</string>
+    <string name="enter_the_password">Geben Sie das Passwort ein.</string>
+    <string name="enter_the_recovery_code">Geben Sie den Wiederherstellungscode ein.</string>
+    <string name="enter_the_username">Geben Sie den Benutzernamen ein.</string>
+
+    <string name="female">Weiblich</string>
+
+    <string name="forgot_your_password">Passwort vergessen?</string>
+
+    <string name="form">Formular</string>
+
+    <string name="french">Französisch</string>
+
+    <string name="friday">Freitag</string>
+
+    <string name="gender">Geschlecht:</string>
+
+    <string name="german">Deutsch</string>
+
+    <string name="google_maps">Google Maps</string>
+
+    <string name="help_animations"><![CDATA[
+            <p><strong>Animationen</strong> sind eine unterhaltsame Möglichkeit, die Benutzeroberfläche reaktionsfähiger und interessanter zu gestalten.</p><p>&nbsp;</p><p>Die Standardanimationen in Android ändern die <strong>Größe, Position und Sichtbarkeit</strong> von Elementen auf dem Bildschirm. Diese Animationen können nach Bedarf kombiniert werden, um den gewünschten Effekt zu erzielen.</p><p>&nbsp;</p><p>In übermäßigem Maße können sie jedoch visuell überwältigend und belastend für weniger leistungsstarke Geräte sein, daher ist es wichtig, die richtigen Orte und Momente für ihren Einsatz zu wählen.</p>
+        ]]></string>
+    <string name="help_ar"><![CDATA[
+            <p><strong>Augmented Reality</strong> besteht darin, die reale Welt, wie sie durch eine Kamera gesehen wird, mit virtuellen Elementen zu kombinieren.</p><p>&nbsp;</p><p>Diese Elemente, typischerweise in 3D, basieren auf Sensordaten und optischem Tracking, um konsistent auf dem Bildschirm zu erscheinen, als wären sie in der physischen Welt platziert.</p><p>&nbsp;</p><p>Dieses Beispiel ist einfacher, da es nur das Gyroskop und den GPS-Standort des Geräts verwendet, um zufällig einen virtuellen Marker in der Nähe zu platzieren.</p><p>&nbsp;</p><p>Wenn die Kamera vom Marker wegzeigt, erscheint stattdessen ein Pfeil, der in die Richtung des Markers zeigt.</p><p>&nbsp;</p><p>Als Minispiel kannst du auf den Marker klicken, um ihn verschwinden zu lassen. Ein neuer Marker wird an einem anderen Ort erscheinen, und ein Zähler hält fest, wie viele du geklickt hast.</p>
+        ]]></string>
+    <string name="help_charts"><![CDATA[
+            <p><strong>Diagramme</strong> sind ein häufiges Feature in vielen Apps und Benutzeroberflächen im Allgemeinen.</p><p>&nbsp;</p><p>Es gibt mehrere Bibliotheken, die man verwenden kann, um Diagramme in Android zu zeichnen, da es ein schwieriges Element ist, das von Grund auf neu gestaltet werden muss.</p><p>&nbsp;</p><p>Die hier gezeigten Diagramme sind mit <strong>MPAndroidChart</strong>, von PhilJay, erstellt. Diese Bibliothek bietet viele Möglichkeiten zur Anpassung ihrer Diagramme und ihrer Reaktionen auf Interaktionen, und sie können mit relativer Leichtigkeit weiter modifiziert werden, indem man ihre Kernklassen erweitert.</p>
+        ]]></string>
+    <string name="help_chat"><![CDATA[
+            <p><strong>Chats</strong> sind in sozialen Medien häufig und werden auch in anderen Apps verwendet, um Feedback zu geben oder den Support zu kontaktieren.</p><p>&nbsp;</p><p>Während es viele Bibliotheken gibt, die voll funktionsfähige Chatsysteme anbieten, ist diese Implementierung mit grundlegenden Komponenten aufgebaut, was eine maximale Anpassung ermöglicht.</p>
+        ]]></string>
+    <string name="help_form"><![CDATA[
+            <p><strong>Formulare</strong> sind essenziell im UI-Design, da die meisten Programme irgendwann von den Nutzern verlangen, Informationen einzugeben.</p><p>&nbsp;</p><p>Es gibt viele Elemente, die in einem Formular erscheinen können, und einige Projekte erfordern spezifischere Möglichkeiten, wie Nutzer mit der App interagieren. Für diese Demo habe ich die folgenden Komponenten ausgewählt:</p><p>&nbsp;</p><ul><li>Ein Bildauswahl-Tool.<br/><i>Basierend auf der <strong>Image Picker</strong>-Bibliothek von Dhaval2404.</i></li><p>&nbsp;</p><li>Ein Textfeld, das visuell auf die Berührung des Nutzers reagiert, ebenfalls auf anderen Bildschirmen vorhanden.</li><p>&nbsp;</p><li>Ein datumswähler basierend auf einem Rad.<br/><i>Basierend auf der <strong>Number Picker</strong>-Bibliothek von ShawnLin013.</i></li><p>&nbsp;</p><li>Ein vollständig benutzerdefinierter Dropdown-Auswahl, erstellt aufgrund der vielen Schwächen des Standard-Android-Komponenten.</li><p>&nbsp;</p><li>Ein Satz benutzerdefinierter Optionsfelder.</li><p>&nbsp;</p><li>Ein benutzerdefiniertes Kontrollkästchen, das auch dynamische Links im Text enthält.</li><p>&nbsp;</p><li>Ein Drücken-und-Halten-Button, der eine Zeichenfläche für eine Unterschrift anzeigt.</li><p>&nbsp;</p></ul>
+        ]]></string>
+    <string name="help_info"><![CDATA[
+            <p>Diese App ist eine umfassende Präsentation der Techniken, Praktiken und Fähigkeiten, die ich in meinem über zehnjährigen Werdegang als Android-Entwickler verfeinert habe.</p><p>&nbsp;</p><p>Sie dient als interaktive Reflexion meiner Erfahrung in der Softwareentwicklung und bietet eine Plattform, um zu demonstrieren, wie ich Probleme, Design und Implementierung in verschiedenen Projekten angehe.</p><p>&nbsp;</p><p>Mit dieser App möchte ich ein tieferes Verständnis meines Entwicklungsprozesses und des Mehrwerts vermitteln, den ich in jedes Projekt einbringe, über das hinaus, was ein statischer Lebenslauf oder ein Portfolio vermitteln kann.</p><p>&nbsp;</p>
+        ]]></string>
+    <string name="help_language"><![CDATA[
+            <p><strong>Die Lokalisierung</strong> ist für die meisten Apps unerlässlich, um sicherzustellen, dass sie in mehreren Sprachen verwendet werden können.</p><p>&nbsp;</p><p>Auf Android erfolgt dies über <strong>XML</strong>-Dateien, die gemeinsame Schlüsselwörter enthalten. Das System ruft automatisch die richtige Übersetzung ab, indem es diese Schlüsselwörter mit der Sprachdatei abgleicht, die der Sprache des Geräts des Benutzers entspricht.</p><p>&nbsp;</p><p>Um eine neue Übersetzung hinzuzufügen, fügen Sie einfach eine neue <strong>XML</strong>-Datei für die gewünschte Sprache hinzu und kompilieren die App neu.</p><p>&nbsp;</p><p>Zudem bieten wir den Nutzern die Möglichkeit, die Sprache der App unabhängig von den Geräteeinstellungen zu ändern, was ihnen mehr Flexibilität bietet.</p>
+        ]]></string>
+    <string name="help_login"><![CDATA[
+            <p>Fast jede App enthält heute einen <strong>Anmeldebildschirm</strong>, der es den Nutzern ermöglicht, sich zu authentifizieren.</p><p>&nbsp;</p><p>Obwohl das Konzept einfach ist, ist es oft der <strong>erste Bildschirm</strong>, den die Nutzer sehen, daher ist es entscheidend, dass er sowohl <strong>intuitiv</strong> als auch <strong>visuell ansprechend</strong> ist.</p><p>&nbsp;</p><p>Da es unwahrscheinlich ist, dass die App während der Nutzung dieses Bildschirms intensive Aufgaben ausführt, können Sie es sich leisten, in die Verbesserung der Erfahrung mit Animationen und Übergängen zu investieren.</p>
+        ]]></string>
+    <string name="help_map"><![CDATA[
+            <p><strong>Karten</strong> werden in vielen Apps verwendet, um den Standort des Benutzers zu verfolgen, Sehenswürdigkeiten anzuzeigen oder Navigation bereitzustellen.</p><p>&nbsp;</p><p><strong>Google Maps</strong> ist zweifellos die am besten dokumentierte Bibliothek für Android und sollte in den meisten Fällen die bevorzugte Lösung sein.</p><p>&nbsp;</p><p>In diesem Beispiel wird der Standort des Geräts mit einem Symbol markiert, andere Marker erscheinen zufällig um ihn herum, und wenn man auf sie klickt, werden Informationen angezeigt. Außerdem kann man den Stil der Karte ändern, indem man eine Taste drückt.</p>
+        ]]></string>
+    <string name="help_paging"><![CDATA[
+            <p>Manchmal benötigt eine App mehrere Bildschirme, die bestimmte UI-Elemente wie eine Kopfzeile, ein Menü oder einen Hintergrund teilen. In solchen Fällen verwenden wir <strong>Fragmente</strong>, die kleinere Benutzeroberflächen sind, die im selben Container eingebettet sind.</p><p>&nbsp;</p><p>Zudem können wir ein Element namens <strong>ViewPager</strong> verwenden, um diese Fragmente nebeneinander anzuzeigen, sodass die Benutzer durch Wischen des Bildschirms oder Klicken auf die Registerkarten zwischen ihnen navigieren können.</p><p>&nbsp;</p><p>In diesem Beispiel finden Sie auch:</p><p>&nbsp;</p><ul><li>&nbsp;Eine Liste von Artikeln, die aktualisiert werden kann und mehr Inhalte lädt, sobald Sie das Ende erreichen. Sie können auch auf einen Artikel klicken, um den gesamten Text anzuzeigen.<br/><i>Beim Anzeigen eines vollständigen Artikels können Sie die Bionic Reading-Taste drücken, um den Text leichter lesbar zu machen, mit drei Intensitätsstufen.</i></li><p>&nbsp;</p><li>&nbsp;Eine Liste von Benachrichtigungen, die aktualisiert werden kann. Sie können auch lange auf eine Taste drücken, um eine neue Benachrichtigung zu erstellen, die in Ihrer Benachrichtigungsleiste erscheint.</li><p>&nbsp;</p><li>&nbsp;Eine Beispielprofilseite mit einer dynamischen Kopfzeile, einer Biografie und mehreren Schaltflächen.</li></ul>
+        ]]></string>
+    <string name="help_qr"><![CDATA[
+            <p>Ein <strong>Barcode</strong> ist eine Methode, Daten visuell darzustellen, sodass eine Maschine sie lesen kann.</p><p>&nbsp;</p><p>Es gibt zwei Haupttypen von Barcodes: eindimensionale (lineare) und zweidimensionale, mit vielen verschiedenen Standards für jeden.</p><p>&nbsp;</p><p>In diesem Beispiel finden Sie:</p><p>&nbsp;</p><ul><li>Ein Dropdown-Menü, mit dem Sie den Barcode-Typ auswählen können, mit dem Sie arbeiten möchten.</li><p>&nbsp;</p><li>Einen Button, der die Kamera öffnet und nach diesem Barcode-Typ scannt.</li><p>&nbsp;</p><li>Ein Textfeld, das Ergebnis eines erfolgreichen Scans anzeigt, mit Buttons, um das Ergebnis in Ihre Zwischenablage zu kopieren oder es in Ihrem Browser zu laden.</li><p>&nbsp;</p><li>Ein weiteres Textfeld, in das Sie schreiben können. Ein Button generiert einen Barcode des ausgewählten Typs, der dem Inhalt dieses Feldes entspricht. Nicht zulässige Zeichen für den ausgewählten Typ werden übersprungen.</li></ul>
+        ]]></string>
+    <string name="help_webview"><![CDATA[
+            <p>Obwohl dies die am wenigsten aufregende Seite in der App zu sein scheint, ist es wahrscheinlich diejenige mit dem meisten Potenzial.</p><p>&nbsp;</p><p>Diese Komponente wird <strong>WebView</strong> genannt und ermöglicht es der App, eine Webseite innerhalb der App zu laden.</p><p>&nbsp;</p><p>Sie wird oft verwendet, um Inhalte von einer bestehenden Webseite online einzubinden. Es ist jedoch zu beachten, dass sowohl Google als auch Apple sehr strenge Regeln für Remote-Inhalte haben und eine App deswegen aus ihren Stores entfernen können.</p><p>&nbsp;</p><p>Die wahre Stärke dieser Komponente liegt im Laden von <strong>lokalen Webinhalten</strong>, die im Quellcode der App enthalten sind.</p><p>&nbsp;</p><p>Dieser Ansatz bietet viel Freiheit und Flexibilität im UI-Design, indem er Entwicklern ermöglicht, jede beliebige Bibliothek, jedes Framework oder jede Vorlage zu verwenden und <strong>nahtlos in ihre App zu integrieren</strong>.</p><p>&nbsp;</p><p>Das Beispiel zeigt zwei Felder, eines innerhalb der Webseite und eines in der nativen Benutzeroberfläche. Durch Drücken der Tasten können Sie den Text von einer Seite zur anderen senden und so demonstrieren, wie Informationen zwischen den beiden Umgebungen fließen können.</p>
+        ]]></string>
+
+    <string name="i_already_have_a_code">Ich habe bereits einen Code</string>
+
+    <string name="image_saved_to_gallery">Bild in der Galerie gespeichert</string>
+
+    <string name="info">Info</string>
+
+    <string name="italian">Italienisch</string>
+
+    <string name="language_selection">Sprachauswahl</string>
+
+    <string name="log_in">Anmelden</string>
+
+    <string name="login_screen">Anmeldebildschirm</string>
+
+    <string name="male">Männlich</string>
+
+    <string name="marker">Markierung</string>
+
+    <string name="monday">Montag</string>
+
+    <string-array name="months">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>März</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Dezember</item>
+    </string-array>
+
+    <string name="name">Name:</string>
+
+    <string name="notification_title">Benachrichtigung</string>
+
+    <string name="other">Andere</string>
+
+    <string name="paging">Seitennummerierung</string>
+
+    <string name="password_">Passwort...</string>
+
+    <string name="passwords_do_not_match">Passwörter stimmen nicht überein</string>
+
+    <string name="placeholder_news_1">
+        Das Konzept von Platzhaltertext bringt oft die weiterreichenden Implikationen der Inhaltserstellung ins Bewusstsein.\n\n
+
+        Obwohl klar ist, dass verschiedene Elemente zur Gesamtstruktur beitragen, kann die Bedeutung eines ausgewogenen Ansatzes nicht genug betont werden. Es gibt etwas zu sagen über die Art und Weise, wie Inhalte mit dem beabsichtigten Zweck übereinstimmen, selbst wenn dieser Zweck nicht explizit definiert ist.\n\n
+
+        Die Schnittstelle zwischen Relevanz und Kontext spielt eine entscheidende Rolle bei der Wahrnehmung von Informationen, auch wenn die Einzelheiten möglicherweise schwer fassbar bleiben.\n\n
+
+        In vielen Fällen spiegelt die Entscheidung, bestimmte Textmuster zu verwenden, ein tieferes Verständnis der zugrunde liegenden Prinzipien wider. Es ist wichtig, den Wert dieser Praxis zu erkennen, da sie zu sinnvollen Ergebnissen führen kann. Darüber hinaus entwickelt sich die Beziehung zwischen Form und Funktion ständig weiter, was zu anhaltenden Diskussionen über die besten Methoden zur Erreichung von Klarheit führt.\n\n
+
+        Wenn wir diese Faktoren berücksichtigen, wird die Rolle der Flexibilität in der Inhaltsstrategie zunehmend offensichtlich, was die Notwendigkeit der Anpassungsfähigkeit in verschiedenen Szenarien verdeutlicht.
+    </string>
+    <string name="placeholder_news_2">
+        Der Begriff der strukturierten Kommunikation überschneidet sich oft mit den weiterreichenden Zielen der strategischen Planung. Wenn wir die Feinheiten des Sprachgebrauchs untersuchen, wird klar, dass es ein empfindliches Gleichgewicht zwischen Substanz und Präsentation zu wahren gilt.\n\n
+
+        Ob es sich um abstrakte Konzepte oder greifbare Ideen handelt, die Art und Weise, wie Informationen vermittelt werden, kann ihre Aufnahme erheblich beeinflussen.\n\n
+
+        Dies hebt die Bedeutung hervor, sowohl den Inhalt als auch den Kontext zu berücksichtigen, in dem er geliefert wird, auch wenn die genauen Parameter variieren können.\n\n
+
+        Ein weiterer Aspekt, der in Betracht gezogen werden sollte, ist die dynamische Natur der Inhaltsevolution. Da neue Trends entstehen, besteht ein kontinuierlicher Bedarf, bestehende Rahmenbedingungen zu überdenken, um sicherzustellen, dass sie relevant bleiben. Die Anpassungsfähigkeit von Inhalten an verschiedene Umgebungen unterstreicht die Bedeutung von Weitsicht in der Planung.\n\n
+
+        Durch das Vorwegnehmen von Veränderungen und die entsprechende Anpassung ist es möglich, Kohärenz und Konsistenz zu wahren. Dieser fortlaufende Prozess unterstreicht den Wert eines ganzheitlichen Ansatzes, der die Fluidität der modernen Kommunikation berücksichtigt.
+    </string>
+    <string name="placeholder_news_3">
+        Die Beziehung zwischen Publikumsengagement und Inhaltslieferung ist oft nuanciert und komplex. Als Schöpfer liegt die Herausforderung darin, diese Komplexitäten mit einem durchdachten Ansatz zu navigieren. Der Einfluss von Übermittlungsmethoden auf die Wahrnehmung des Publikums ist unbestreitbar und unterstreicht die Bedeutung von Vielseitigkeit in Kommunikationsstrategien.\n\n
+
+        Durch den Einsatz verschiedener Techniken wird es möglich, ein breiteres Publikum zu erreichen und dennoch die Integrität der Botschaft zu wahren. Dennoch bleibt das Gleichgewicht zwischen Innovation und Tradition ein wichtiger Aspekt in diesem Prozess.\n\n
+
+        Zudem kann die Bedeutung des Timings bei der Inhaltsverbreitung nicht ignoriert werden. Ob durch digitale Plattformen oder traditionelle Medien, das Timing einer Nachricht bestimmt oft ihre Wirkung. Diese Überlegung führt zu einer tieferen Erkundung der Wechselwirkungen zwischen Timing und Inhaltsrelevanz.\n\n
+
+        Da sich die Kommunikationslandschaft weiter verändert, ist es entscheidend, auf diese zeitlichen Faktoren abgestimmt zu bleiben. Letztendlich ist es die Abstimmung des Timings mit den Erwartungen des Publikums, die eine Nachricht von gewöhnlich zu außergewöhnlich erheben kann.
+    </string>
+    <string name="placeholder_news_4">
+        Die Inhaltsstrategie überschneidet sich oft mit den umfassenderen Themen der Publikumswahrnehmung und Markenidentität. Eine gut gestaltete Erzählung hat das Potenzial, tief bei ihrem Publikum Anklang zu finden und einen bleibenden Eindruck zu hinterlassen. In diesem Kontext spielt die Wahl von Sprache und Ton eine entscheidende Rolle bei der Gestaltung dieser Erzählung.\n\n
+
+        Es ist wichtig, ein Gleichgewicht zwischen Konsistenz und Anpassungsfähigkeit zu finden, um sicherzustellen, dass die Botschaft relevant bleibt, ohne ihre Kernidentität zu verlieren. Die subtile Kunst der Kommunikation liegt darin, diese Nuancen zu verstehen und sie effektiv anzuwenden.\n\n
+
+        In der sich ständig weiterentwickelnden Medienlandschaft kann die Bedeutung von Innovation nicht unterschätzt werden. Da sich Trends ändern und neue Plattformen entstehen, besteht ein kontinuierlicher Bedarf, Inhaltsstrategien neu zu bewerten und zu verfeinern. Dieser fortlaufende Anpassungsprozess hält den Inhalt nicht nur frisch, sondern stellt auch sicher, dass er weiterhin den Erwartungen des Publikums entspricht.\n\n
+
+        Die Herausforderung besteht jedoch darin, eine kohärente Botschaft über verschiedene Kanäle hinweg aufrechtzuerhalten. Durch die Förderung eines Geistes der Innovation und zugleich der Treue zu grundlegenden Prinzipien können Inhaltschöpfer diese Herausforderungen erfolgreich meistern.
+    </string>
+    <string name="placeholder_profile">
+        Leidenschaftlich daran interessiert, die Schnittstellen dynamischer Arbeitsabläufe und innovativer Prozesse zu erkunden, war der Weg zur Optimierung strategischer Ergebnisse schon immer ein Eckpfeiler der beruflichen Entwicklung. Mit einem Fokus auf die Verbesserung kollaborativer Umgebungen spielt die Fähigkeit, zentrale Erkenntnisse zu nutzen, eine entscheidende Rolle bei der Umsetzung erfolgreicher Initiativen. Mit einem proaktiven Ansatz zur Problemlösung bleibt das ständige Streben nach Exzellenz ein Leitprinzip.\n\n
+
+        Im Laufe verschiedener Unternehmungen hat das Engagement für Wachstum und die Förderung von Kreativität zur Entwicklung starker, anpassungsfähiger Methoden geführt. Durch die Integration unterschiedlicher Perspektiven wird die Betonung von Inklusion und zukunftsweisenden Lösungen von entscheidender Bedeutung. Die Bedeutung einer ausgewogenen Perspektive zu verstehen, ist die Ausrichtung von Kernwerten auf sich entwickelnde Trends entscheidend, um die Komplexität der heutigen schnelllebigen Landschaft zu meistern.\n\n
+
+        In der sich ständig verändernden Welt der Industriestandards ist die Fähigkeit, der Zeit voraus zu sein, unverzichtbar. Durch die Kombination einer tiefen Wertschätzung für Tradition mit der Bereitschaft, neue Herausforderungen anzunehmen, ist der Weg zu nachhaltigem Erfolg sowohl lohnend als auch erfüllend. Dieser Ansatz unterstreicht den Wert des kontinuierlichen Lernens und der Anpassungsfähigkeit und stellt sicher, dass der Weg nach vorne immer durch ein umfassendes Verständnis der Vergangenheit und Gegenwart geprägt ist.\n\n
+
+        Das Streben nach wirkungsvollen Ergebnissen ist in einem Engagement für Exzellenz verwurzelt, das sich in einer akribischen Liebe zum Detail widerspiegelt. Ob bei der Arbeit an groß angelegten Projekten oder beim Verfeinern der Nuancen spezifischer Aufgaben, das Engagement für die Bereitstellung hochwertiger Ergebnisse ist unerschütterlich. Durch die Förderung einer Kultur der Innovation und Zusammenarbeit sind die Möglichkeiten für Wachstum und Erfolg grenzenlos.\n\n
+    </string>
+
+    <string name="portuguese">Portugiesisch</string>
+
+    <string name="press_a_tab_to_switch_to_that_screen">Drücken Sie eine Registerkarte, um zu diesem Bildschirm zu wechseln</string>
+
+    <string name="proceed_to_signature">Zur Unterschrift fortfahren</string>
+
+    <string name="received_from_webpage">Von der Webseite empfangen:\n</string>
+
+    <string name="recovery_code_">Wiederherstellungscode...</string>
+
+    <string name="register_new_account">Neues Konto registrieren</string>
+
+    <string name="repeat_password_">Passwort wiederholen...</string>
+
+    <string name="saturday">Samstag</string>
+
+    <string name="scan_result">Scan-Ergebnis</string>
+
+    <string name="scar_the_barcode">Scannen Sie den Barcode</string>
+
+    <string name="select_a_barcode_type">-- Barcode-Typ ---</string>
+    <string name="select_a_country">-- Wählen Sie ein Land --</string>
+
+    <string name="send_to_webpage">An die Webseite senden!</string>
+
+    <string name="spanish">Spanisch</string>
+
+    <string name="sunday">Sonntag</string>
+
+    <string name="swipe_to_navigate_between_screens">Wischen Sie, um zwischen den Bildschirmen zu navigieren</string>
+
+    <string name="terms_1">Ich habe die</string>
+    <string name="terms_2">ALLGEMEINEN GESCHÄFTSBEDINGUNGEN</string>
+    <string name="terms_3">gelesen und akzeptiere die</string>
+    <string name="terms_4">DATENSCHUTZRICHTLINIE</string>
+
+    <string name="thursday">Donnerstag</string>
+
+    <string name="tuesday">Dienstag</string>
+
+    <string name="ui">UI</string>
+
+    <string name="username_">Benutzername...</string>
+
+    <string name="wednesday">Mittwoch</string>
+
+    <string name="write_a_message_">Schreiben Sie eine Nachricht...</string>
+</resources>

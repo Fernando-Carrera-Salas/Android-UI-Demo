@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/srl_rv_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_notifications"
+            android:scrollbars="none"
+            android:paddingBottom="120dp"
+            android:clipToPadding="false"
+            android:scrollbarThumbVertical="@drawable/scrollbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="40dp"
+        app:cardBackgroundColor="@color/white_to_light_gray"
+        android:layout_margin="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+        <com.java.uidemo.view.ProgressBarButton
+            android:id="@+id/pbb_bt_receive_new_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ProgressBar
+                android:clickable="false"
+                android:focusable="false"
+                android:id="@+id/pb_bt_receive_new_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/circular_progress_bar"
+                android:background="@drawable/circular_progress_bar_background"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:max="100"
+                android:progress="0" />
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_margin="12dp"
+                android:background="@drawable/bg_round_button_3"
+                android:id="@+id/rl_bt_receive_new_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:padding="8dp"
+                    android:src="@drawable/new_alert"
+                    android:layout_centerInParent="true"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:tint="@color/dark_gray_to_light_gray" />
+            </RelativeLayout>
+        </com.java.uidemo.view.ProgressBarButton>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
