@@ -18,12 +18,14 @@
 
 Android UI Demo es un portfolio interactivo diseñado para demostrar mi experiencia como desarrollador de Android.
 
-<p align="center">
-  <img src="" alt="Pantalla de inicio" width="250"/>
-  <img src="" alt="Menú y idiomas" width="250"/>
-  <img src="" alt="Paginación" width="250"/>
-  <img src="" alt="Mapas" width="250"/>
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWlvY2wzam1ldWZ1MjV2bXhrc3lyNnU2aGFyMGxpNjFraXdkYzd1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7FKjfI7FEYuvoNIaFx/giphy.gif" alt="Inicio" width="200"/></td>
+    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRqYmlvcjEyZXN5Mm83ZWdkYm9qczZ3aWVlOGJsaTBmYnlsM3RoMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lJUTN18kx9CUJuAtVF/giphy.gif" alt="Menú e idiomas" width="200"/></td>
+    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGx1emJpMTV5Z3l4MTIwc3A3Nnh1ODU2amlpN2I0cm5ueDdrZTZhdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LqLSuq8rC5QzBZ0ZFa/giphy.gif" alt="Paginación" width="200"/></td>
+    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG82NXRueHY2dTdqZnljemRybjhid3NncWFlMW85bWFheTAxZHkyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3mww9UNAaKkSBcPvCc/giphy.gif" alt="Google Maps" width="200"/></td>
+  </tr>
+</table>
 
 ## Pantallas y Funcionalidades
 
