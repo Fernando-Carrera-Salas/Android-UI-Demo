@@ -81,6 +81,10 @@ A huge thank you to the following libraries and resources that made this project
 - [Android-SpinKit](https://github.com/ybq/Android-SpinKit)
 - [Freepik](https://github.com/facebookarchive/shimmer-android)
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 ---
 
 Feel free to send suggestions and report any issues in the [issues section](https://github.com/Fernando-Carrera-Salas/Android-UI-Demo/issues).
