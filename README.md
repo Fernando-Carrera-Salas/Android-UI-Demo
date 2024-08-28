@@ -20,10 +20,10 @@ Android UI Demo is an interactive portfolio designed to showcase my experience a
 
 <table align="center">
   <tr>
-    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWlvY2wzam1ldWZ1MjV2bXhrc3lyNnU2aGFyMGxpNjFraXdkYzd1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7FKjfI7FEYuvoNIaFx/giphy.gif" alt="Splash" width="200"/></td>
-    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRqYmlvcjEyZXN5Mm83ZWdkYm9qczZ3aWVlOGJsaTBmYnlsM3RoMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lJUTN18kx9CUJuAtVF/giphy.gif" alt="Menu and languages" width="200"/></td>
-    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGx1emJpMTV5Z3l4MTIwc3A3Nnh1ODU2amlpN2I0cm5ueDdrZTZhdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LqLSuq8rC5QzBZ0ZFa/giphy.gif" alt="Paging" width="200"/></td>
-    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG82NXRueHY2dTdqZnljemRybjhid3NncWFlMW85bWFheTAxZHkyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3mww9UNAaKkSBcPvCc/giphy.gif" alt="Google Maps" width="200"/></td>
+    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWlvY2wzam1ldWZ1MjV2bXhrc3lyNnU2aGFyMGxpNjFraXdkYzd1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7FKjfI7FEYuvoNIaFx/giphy.gif" alt="Splash" width="180"/></td>
+    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRqYmlvcjEyZXN5Mm83ZWdkYm9qczZ3aWVlOGJsaTBmYnlsM3RoMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lJUTN18kx9CUJuAtVF/giphy.gif" alt="Menu and languages" width="180"/></td>
+    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGx1emJpMTV5Z3l4MTIwc3A3Nnh1ODU2amlpN2I0cm5ueDdrZTZhdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LqLSuq8rC5QzBZ0ZFa/giphy.gif" alt="Paging" width="180"/></td>
+    <td align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG82NXRueHY2dTdqZnljemRybjhid3NncWFlMW85bWFheTAxZHkyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3mww9UNAaKkSBcPvCc/giphy.gif" alt="Google Maps" width="180"/></td>
   </tr>
 </table>
 
