@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.Nullable;
@@ -56,12 +57,16 @@ public class FormActivity extends DemoActivity
 
     private ImageView iv_picture, iv_bt_picture;
 
+    private int button_taps;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
         initDemo();
+
+        button_taps = 0;
 
         final EditText et_text_field = findViewById(R.id.et_text_field_form);
         et_text_field.setTypeface(demo.getTf_monserrat_light());
@@ -109,12 +114,18 @@ public class FormActivity extends DemoActivity
             @Override
             public void onCancel()
             {
-
+                button_taps++;
+                if (button_taps>2)
+                {
+                    Toast.makeText(FormActivity.this,getString(R.string.press_and_hold_the_button),Toast.LENGTH_SHORT).show();
+                    button_taps = 0;
+                }
             }
 
             @Override
             public void onEnd()
             {
+                button_taps = 0;
                 displaySignature();
             }
         });

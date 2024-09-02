@@ -2,6 +2,9 @@ package com.java.uidemo.demos.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.SpannableStringBuilder;
+import android.text.Spanned;
+import android.text.style.RelativeSizeSpan;
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -156,7 +159,23 @@ public class FragmentProfile extends Fragment
         rl_bt_scroll_friends.setOnClickListener(view -> displayFriends());
 
         final TextView tv_text_profile = v.findViewById(R.id.tv_text_profile);
-        tv_text_profile.setText(getString(R.string.placeholder_profile));
+        SpannableStringBuilder ssb_paragraph_initial = new SpannableStringBuilder();
+        String[] paragraphs = getString(R.string.placeholder_profile).split("\n\n");
+        int previous_length = 0;
+        int[] caps = new int[paragraphs.length];
+        for (int i=0; i<paragraphs.length; i++)
+        {
+            String s_paragraph = paragraphs[i];
+            ssb_paragraph_initial.append(s_paragraph);
+            ssb_paragraph_initial.append("\n\n");
+            caps[i] = previous_length;
+            previous_length = ssb_paragraph_initial.length()+1;
+        }
+        for (int i=0; i<caps.length; i++)
+        {
+            ssb_paragraph_initial.setSpan(new RelativeSizeSpan(1.5f),caps[i],caps[i]+1,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        }
+        tv_text_profile.setText(ssb_paragraph_initial);
         tv_text_profile.setTypeface(demo.getTf_monserrat_light());
 
         return v;

@@ -39,7 +39,7 @@
         <item>¡Qué buena idea!</item>
     </string-array>
 
-    <string name="click_me">¡Haz clic en mí!</string>
+    <string name="click_me">¡Púlsame!</string>
 
     <string name="confirm">Confirmar</string>
 
@@ -464,6 +464,7 @@
     <string name="portuguese">Portugués</string>
 
     <string name="press_a_tab_to_switch_to_that_screen">Presiona una pestaña para cambiar a esa pantalla</string>
+    <string name="press_and_hold_the_button">Presiona y mantén el botón</string>
 
     <string name="proceed_to_signature">Proceder a la firma</string>
 

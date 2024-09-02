@@ -7,6 +7,7 @@ import android.os.Looper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,6 +19,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import com.java.uidemo.R;
 import com.java.uidemo.adapter.NotificationAdapter;
 import com.java.uidemo.application.UIDemo;
+import com.java.uidemo.demos.FormActivity;
 import com.java.uidemo.demos.ViewPagerActivity;
 import com.java.uidemo.view.ProgressBarButton;
 
@@ -35,12 +37,14 @@ public class FragmentNotifications extends Fragment
     private ProgressBarButton pbb_bt_receive_new;
     private NotificationAdapter adapter;
     private LinearLayoutManager manager;
+    private int button_taps;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
         final View v = inflater.inflate(R.layout.fragment_notifications, container, false);
         activity = getActivity();
+        button_taps = 0;
         demo = (UIDemo) activity.getApplicationContext();
         RecyclerView rv_notifications = v.findViewById(R.id.rv_notifications);
         manager = new LinearLayoutManager(activity);
@@ -66,12 +70,18 @@ public class FragmentNotifications extends Fragment
             @Override
             public void onCancel()
             {
-
+                button_taps++;
+                if (button_taps>2)
+                {
+                    Toast.makeText(activity,getString(R.string.press_and_hold_the_button),Toast.LENGTH_SHORT).show();
+                    button_taps = 0;
+                }
             }
 
             @Override
             public void onEnd()
             {
+                button_taps = 0;
                 ((ViewPagerActivity)activity).sendNotification();
             }
         });

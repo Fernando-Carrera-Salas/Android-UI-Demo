@@ -47,9 +47,9 @@ public class ChatActivity extends DemoActivity
     private LinearLayoutManager manager_chat_message;
 
     private final int MIN_RECEIVE_TIME = 5000;
-    private final int MAX_RECEIVE_TIME = 60000;
+    private final int MAX_RECEIVE_TIME = 30000;
     private final int MIN_RESPONSE_TIME = 1000;
-    private final int MAX_RESPONSE_TIME = 20000;
+    private final int MAX_RESPONSE_TIME = 3000;
     private boolean is_response;
 
     private Handler h_receive_message;
@@ -132,7 +132,7 @@ public class ChatActivity extends DemoActivity
                     chat_message_adapter.notifyItemChanged(chat_messages.size()-2);
                 manager_chat_message.scrollToPosition(chat_messages.size()-1);
 
-                if (new Random().nextBoolean())
+                if (new Random().nextInt(5)>1)
                 {
                     is_response = true;
                     h_receive_message.removeCallbacks(r_receive_message);
@@ -210,7 +210,7 @@ public class ChatActivity extends DemoActivity
                             chat_message_adapter.notifyItemChanged(chat_messages.size()-2);
                         manager_chat_message.scrollToPosition(chat_messages.size()-1);
 
-                        if (new Random().nextBoolean())
+                        if (new Random().nextInt(5)>1)
                         {
                             is_response = true;
                             h_receive_message.removeCallbacks(r_receive_message);
