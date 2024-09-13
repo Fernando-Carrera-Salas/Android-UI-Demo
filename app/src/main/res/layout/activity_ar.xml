@@ -51,4 +51,18 @@
             android:layout_width="200dp"
             android:layout_height="200dp"/>
     </RelativeLayout>
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/highscore"
+        android:textColor="@color/white"
+        android:id="@+id/tv_highscore_ar"
+        android:textSize="20sp"
+        android:shadowColor="@color/dark_gray"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:gravity="center"
+        android:shadowRadius="15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>

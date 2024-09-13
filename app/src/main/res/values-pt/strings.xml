@@ -364,6 +364,8 @@
             <p>Embora esta possa parecer a tela menos emocionante do aplicativo, é provavelmente a que tem mais potencial.</p><p>&nbsp;</p><p>Este componente é chamado de <strong>WebView</strong>, e permite que o aplicativo carregue uma página da web dentro dele mesmo.</p><p>&nbsp;</p><p>É frequentemente usado para incluir conteúdo de uma página web existente online. No entanto, deve-se notar que tanto o Google quanto a Apple têm regras muito rígidas sobre conteúdo remoto e podem remover um aplicativo de suas lojas por causa disso.</p><p>&nbsp;</p><p>A verdadeira força deste componente está em carregar <strong>conteúdo web local</strong>, incluído no código-fonte do aplicativo.</p><p>&nbsp;</p><p>Esta abordagem adiciona muita liberdade e flexibilidade ao design da interface do usuário, permitindo que os desenvolvedores usem qualquer biblioteca, framework ou template e <strong>integrem-no perfeitamente em seu aplicativo</strong>.</p><p>&nbsp;</p><p>O exemplo exibe dois campos, um dentro da página web e outro na interface do usuário nativa. Ao pressionar os botões, você pode enviar o texto de um lado para o outro, mostrando como as informações podem fluir entre os dois ambientes.</p>
         ]]></string>
 
+    <string name="highscore">Pontuação mais alta:</string>
+
     <string name="i_already_have_a_code">Já tenho um código</string>
 
     <string name="image_saved_to_gallery">Imagem salva na galeria</string>

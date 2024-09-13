@@ -364,6 +364,8 @@
             <p>Obwohl dies die am wenigsten aufregende Seite in der App zu sein scheint, ist es wahrscheinlich diejenige mit dem meisten Potenzial.</p><p>&nbsp;</p><p>Diese Komponente wird <strong>WebView</strong> genannt und ermöglicht es der App, eine Webseite innerhalb der App zu laden.</p><p>&nbsp;</p><p>Sie wird oft verwendet, um Inhalte von einer bestehenden Webseite online einzubinden. Es ist jedoch zu beachten, dass sowohl Google als auch Apple sehr strenge Regeln für Remote-Inhalte haben und eine App deswegen aus ihren Stores entfernen können.</p><p>&nbsp;</p><p>Die wahre Stärke dieser Komponente liegt im Laden von <strong>lokalen Webinhalten</strong>, die im Quellcode der App enthalten sind.</p><p>&nbsp;</p><p>Dieser Ansatz bietet viel Freiheit und Flexibilität im UI-Design, indem er Entwicklern ermöglicht, jede beliebige Bibliothek, jedes Framework oder jede Vorlage zu verwenden und <strong>nahtlos in ihre App zu integrieren</strong>.</p><p>&nbsp;</p><p>Das Beispiel zeigt zwei Felder, eines innerhalb der Webseite und eines in der nativen Benutzeroberfläche. Durch Drücken der Tasten können Sie den Text von einer Seite zur anderen senden und so demonstrieren, wie Informationen zwischen den beiden Umgebungen fließen können.</p>
         ]]></string>
 
+    <string name="highscore">Höchstpunktzahl:</string>
+
     <string name="i_already_have_a_code">Ich habe bereits einen Code</string>
 
     <string name="image_saved_to_gallery">Bild in der Galerie gespeichert</string>

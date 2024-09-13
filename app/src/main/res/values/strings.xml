@@ -373,6 +373,8 @@
             <p>Though this may seem like the least exciting screen in the app, it is likely the one with the most potential.</p><p>&nbsp;</p><p>This component is called a <strong>WebView</strong>, and it allows the app to load a webpage within itself.</p><p>&nbsp;</p><p>It is often used to include content from an existing online webpage. However, it should be noted that both Google and Apple have very strict rules about remote content, and may remove an app from their stores because of this.</p><p>&nbsp;</p><p>The true strength of this component lies in loading <strong>local web content</strong>, included within the source code of the app.</p><p>&nbsp;</p><p>This approach adds a lot of freedom and flexibility to UI design by allowing developers to use any library, framework, or template and <strong>seamlessly integrate it within their app</strong>.</p><p>&nbsp;</p><p>The example displays two fields, one inside the webpage and one in the native UI. By pressing the buttons, you can send the text from one side to the other, showcasing how information can flow between the two environments.</p>
         ]]></string>
 
+    <string name="highscore">Highscore:</string>
+
     <string name="i_already_have_a_code">I already have a code</string>
 
     <string name="image_saved_to_gallery">Image saved to gallery</string>

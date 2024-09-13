@@ -50,6 +50,7 @@ import androidx.core.content.ContextCompat;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.java.uidemo.R;
 import com.java.uidemo.util.Animations;
+import com.java.uidemo.util.Constants;
 import com.java.uidemo.util.DemoActivity;
 import com.java.uidemo.view.AROverlayView;
 
@@ -77,6 +78,7 @@ public class ARActivity extends DemoActivity implements SensorEventListener, Loc
     private int touch_x, touch_y;
 
     private int click_count;
+    private int highscore;
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -102,6 +104,12 @@ public class ARActivity extends DemoActivity implements SensorEventListener, Loc
         iv_arrow.setRotation(0);
         touch_x = 0;
         touch_y = 0;
+        click_count = 0;
+        highscore = getSharedPreferences(Constants.SHARED_PREFERENCES,MODE_PRIVATE).getInt(Constants.HIGHSCORE_PREFERENCE,0);
+        final TextView tv_highscore = findViewById(R.id.tv_highscore_ar);
+        tv_highscore.setText(getString(R.string.highscore)+" "+highscore);
+        tv_highscore.setTextColor(getColor(R.color.white));
+        tv_highscore.setTypeface(demo.getTf_ashley_semibold());
         iv_arrow.setVisibility(View.INVISIBLE);
         final View v_ripple = findViewById(R.id.v_ripple_ar);
         final TextView tv_click = findViewById(R.id.tv_click_ar);
@@ -131,7 +139,12 @@ public class ARActivity extends DemoActivity implements SensorEventListener, Loc
                 tv_click.setText(String.valueOf(click_count));
                 Animations.ripple(tv_click,600);
                 ar_overlay_view.generateNewArPoint();
-
+                if (click_count>highscore)
+                {
+                    highscore = click_count;
+                    tv_highscore.setText(getString(R.string.highscore)+" "+highscore);
+                    tv_highscore.setTextColor(getColor(R.color.ui_demo_yellow));
+                }
             }
         });
 

@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.location.Location;
 import android.opengl.Matrix;
 import android.view.View;
@@ -36,6 +37,8 @@ public class AROverlayView extends View
     private ARPoint current_ar_point;
     private int animation_frame;
     private final AROverlayListener listener;
+    private Rect r_name = new Rect();
+    private Rect r_distance = new Rect();
 
     public AROverlayView(Context context, AROverlayListener listener)
     {
@@ -46,6 +49,7 @@ public class AROverlayView extends View
         paint.setColor(Color.WHITE);
         paint.setTypeface(demo.getTf_monserrat_light());
         paint.setTextSize(30);
+        paint.setTextAlign(Paint.Align.LEFT);
 
         animation_frame = 0;
 
@@ -81,8 +85,8 @@ public class AROverlayView extends View
     public void generateNewArPoint()
     {
         Random r = new Random();
-        float lat = (float) current_location.getLatitude() + r.nextFloat()-0.5f;
-        float lon = (float) current_location.getLongitude() + r.nextFloat()-0.5f;
+        float lat = (float) current_location.getLatitude() + r.nextFloat()*0.002f+0.0005f;
+        float lon = (float) current_location.getLongitude() + r.nextFloat()*0.002f+0.0005f;
         current_ar_point = new ARPoint(this.getContext().getString(R.string.click_me), lat, lon, current_location.getAltitude());
     }
 
@@ -185,8 +189,10 @@ public class AROverlayView extends View
         canvas.drawBitmap(bm_arrow_r, x - (bm_arrow_r.getWidth() / 2f) - movement, y - (bm_arrow_r.getHeight() / 2f), paint);
         canvas.drawBitmap(bm_arrow_b, x - (bm_arrow_b.getWidth() / 2f), y - (bm_arrow_b.getHeight() / 2f + movement), paint);
         canvas.drawBitmap(bm_arrow_l, x - (bm_arrow_l.getWidth() / 2f) + movement, y - (bm_arrow_l.getHeight() / 2f), paint);
-        canvas.drawText(current_ar_point.getName(), x - (13 * current_ar_point.getName().length() / 2f), y - 75, paint);
-        canvas.drawText(distance_text, x - (15 * distance_text.length() / 2f), y + 100, paint);
+        paint.getTextBounds(current_ar_point.getName(), 0, current_ar_point.getName().length(), r_name);
+        canvas.drawText(current_ar_point.getName(), x - r_name.width() / 2f, y - 75, paint);
+        paint.getTextBounds(distance_text, 0, distance_text.length(), r_distance);
+        canvas.drawText(distance_text, x - r_distance.width() / 2f, y + 100, paint);
 
     }
 
