@@ -9,7 +9,7 @@
   Currently in Closed Alpha Test
 </h3>
 <p align="center">
-  You may download the app in Play Store by joining <a href="https://groups.google.com/u/1/g/ui-demo-closed-test" target="_blank">this Google Group</a> first.
+  You may download the app from Play Store by joining <a href="https://groups.google.com/u/1/g/ui-demo-closed-test" target="_blank">this Google Group</a> first.
 </p>
 
 # Android UI Demo
