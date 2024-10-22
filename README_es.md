@@ -9,7 +9,7 @@
   Actualmente en Prueba Alfa Cerrada
 </h3>
 <p align="center">
-  Puedes descargar la aplicación en Play Store uniéndote a <a href="https://groups.google.com/u/1/g/ui-demo-closed-test" target="_blank">este Grupo de Google</a> primero.
+  Puedes descargar la aplicación en Play Store uniéndote a <a href="https://groups.google.com/g/fc-apps-closed-testing" target="_blank">este Grupo de Google</a> primero.
 </p>
 
 # Android UI Demo
