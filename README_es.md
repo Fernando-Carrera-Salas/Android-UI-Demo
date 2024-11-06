@@ -81,7 +81,7 @@ Un enorme agradecimiento a las siguientes bibliotecas y recursos que hicieron po
 - [PhotoView](https://github.com/Baseflow/PhotoView)
 - [Facebook Shimmer](https://github.com/facebookarchive/shimmer-android)
 - [Android-SpinKit](https://github.com/ybq/Android-SpinKit)
-- [Freepik](https://github.com/facebookarchive/shimmer-android)
+- [Freepik](https://www.flaticon.com/search?author_id=1)
 
 ## Licencia
 
